@@ -1,8 +1,10 @@
 <!-- @format -->
 
-# umi-plugin-antd-theme
+# umi-plugin-dynamic-theme
 
-[![NPM version](https://img.shields.io/npm/v/umi-plugin-antd-theme.svg?style=flat)](https://npmjs.org/package/umi-plugin-antd-theme) [![NPM downloads](http://img.shields.io/npm/dm/umi-plugin-antd-theme.svg?style=flat)](https://npmjs.org/package/umi-plugin-antd-theme)
+> umi-plugin-antd-theme 的 fork 版本
+
+[![NPM version](https://img.shields.io/npm/v/umi-plugin-dynamic-theme.svg?style=flat)](https://npmjs.org/package/umi-plugin-dynamic-theme) [![NPM downloads](http://img.shields.io/npm/dm/umi-plugin-dynamic-theme.svg?style=flat)](https://npmjs.org/package/umi-plugin-dynamic-theme)
 
 ## Usage
 
@@ -41,13 +43,13 @@ or configure in `config/theme.config.js`,
 module.exports = {
   theme: [
     {
-      theme: 'dark',
-      fileName: 'dark.css',
+      theme: "dark",
+      fileName: "dark.css",
     },
     {
-      fileName: 'mingQing.css',
+      fileName: "mingQing.css",
       modifyVars: {
-        '@primary-color': '#13C2C2',
+        "@primary-color": "#13C2C2",
       },
     },
   ],

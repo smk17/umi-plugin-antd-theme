@@ -1,17 +1,19 @@
 {
-  "name": "umi-plugin-antd-theme",
-  "version": "2.1.2",
+  "name": "umi-plugin-dynamic-theme",
+  "version": "2.2.0",
   "description": "",
   "authors": {
-    "name": "chenshuai2144",
-    "email": "qixian.cs@outlook.com"
+    "name": "smk17",
+    "email": "sengmitnick@163.com"
   },
-  "repository": "https://github.com/chenshuai2144/umi-plugin-ant-theme.git",
+  "repository": "https://github.com/smk17/umi-plugin-antd-theme.git",
   "peerDependencies": {
-    "umi": "2.x || ^2.9.0-0"
+    "umi": "3.x"
   },
   "main": "lib/index.js",
   "scripts": {
+    "l": "npm login --registry=https://registry.npmjs.org/",
+    "p": "npm publish --access public --registry=https://registry.npmjs.org/",
     "start": "CURRENT_PROJECT=example umi ui",
     "build": "father-build",
     "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish"
